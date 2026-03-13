@@ -1,0 +1,323 @@
+name: flags_game
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flame: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/Keys/
+    - assets/images/sprites/Indonesia/
+    - assets/images/sprites/Afghanistan/
+    - assets/images/sprites/Albania/
+    - assets/images/sprites/Algeria/
+    - assets/images/sprites/American Samoa/
+    - assets/images/sprites/Andorra/
+    - assets/images/sprites/Angola/
+    - assets/images/sprites/Anguilla/
+    - assets/images/sprites/Antarctica/
+    - assets/images/sprites/Antigua/
+    - assets/images/sprites/Argentina/
+    - assets/images/sprites/Armenia/
+    - assets/images/sprites/Aruba/
+    - assets/images/sprites/Australia/
+    - assets/images/sprites/Austria/
+    - assets/images/sprites/Azerbaijan/
+    - assets/images/sprites/Bahamas/
+    - assets/images/sprites/Bahrain/
+    - assets/images/sprites/Bangladesh/
+    - assets/images/sprites/Barbados/
+    - assets/images/sprites/Belarus/
+    - assets/images/sprites/Belgium/
+    - assets/images/sprites/Belize/
+    - assets/images/sprites/Benin/
+    - assets/images/sprites/Bermuda/
+    - assets/images/sprites/Bhutan/
+    - assets/images/sprites/Bolivia/
+    - assets/images/sprites/Bosnia/
+    - assets/images/sprites/Botswana/
+    - assets/images/sprites/Brazil/
+    - assets/images/sprites/Brunei/
+    - assets/images/sprites/Bulgaria/
+    - assets/images/sprites/Burkina Faso/
+    - assets/images/sprites/Burundi/
+    - assets/images/sprites/Cambodia/
+    - assets/images/sprites/Cameroon/
+    - assets/images/sprites/Canada/
+    - assets/images/sprites/Cape Verde/
+    - assets/images/sprites/Cayman Islands/
+    - assets/images/sprites/Central African Republic/
+    - assets/images/sprites/Chad/
+    - assets/images/sprites/Chile/
+    - assets/images/sprites/China/
+    - assets/images/sprites/Christmas Island/
+    - assets/images/sprites/Cocos Islands/
+    - assets/images/sprites/Columbia/
+    - assets/images/sprites/Comoros/
+    - assets/images/sprites/Congo (DR)/
+    - assets/images/sprites/Congo (R)/
+    - assets/images/sprites/Cook Islands/
+    - assets/images/sprites/Costa Rica/
+    - assets/images/sprites/Croatia/
+    - assets/images/sprites/Cuba/
+    - assets/images/sprites/Cyprus/
+    - assets/images/sprites/Czech Republic/
+    - assets/images/sprites/Denmark/
+    - assets/images/sprites/Djibouti/
+    - assets/images/sprites/Dominica/
+    - assets/images/sprites/Dominican Republic/
+    - assets/images/sprites/East Timor/
+    - assets/images/sprites/Ecuador/
+    - assets/images/sprites/Egypt/
+    - assets/images/sprites/El Salvador/
+    - assets/images/sprites/Equatorial Guinea/
+    - assets/images/sprites/Eritrea/
+    - assets/images/sprites/Estonia/
+    - assets/images/sprites/Ethiopia/
+    - assets/images/sprites/Falkland Islands/
+    - assets/images/sprites/Faroe Islands/
+    - assets/images/sprites/Fiji/
+    - assets/images/sprites/Finland/
+    - assets/images/sprites/France/
+    - assets/images/sprites/French Guiana/
+    - assets/images/sprites/French Polynesia/
+    - assets/images/sprites/Gabon/
+    - assets/images/sprites/Gambia/
+    - assets/images/sprites/Georgia/
+    - assets/images/sprites/Germany/
+    - assets/images/sprites/Ghana/
+    - assets/images/sprites/Gibraltar/
+    - assets/images/sprites/Greece/
+    - assets/images/sprites/Greenland/
+    - assets/images/sprites/Grenada/
+    - assets/images/sprites/Guadelupe/
+    - assets/images/sprites/Guam/
+    - assets/images/sprites/Guatemala/
+    - assets/images/sprites/Guinea/
+    - assets/images/sprites/Guinea-Bissau/
+    - assets/images/sprites/Guyana/
+    - assets/images/sprites/Haiti/
+    - assets/images/sprites/Honduras/
+    - assets/images/sprites/Hong Kong/
+    - assets/images/sprites/Hungary/
+    - assets/images/sprites/Iceland/
+    - assets/images/sprites/India/
+    - assets/images/sprites/Indonesia/
+    - assets/images/sprites/Iran/
+    - assets/images/sprites/Iraq/
+    - assets/images/sprites/Ireland/
+    - assets/images/sprites/Israel/
+    - assets/images/sprites/Italy/
+    - assets/images/sprites/Ivory Coast/
+    - assets/images/sprites/Jamaica/
+    - assets/images/sprites/Japan/
+    - assets/images/sprites/Jordan/
+    - assets/images/sprites/Kazakhstan/
+    - assets/images/sprites/Kenya/
+    - assets/images/sprites/Kosovo/
+    - assets/images/sprites/Kuwait/
+    - assets/images/sprites/Kyrgyzstan/
+    - assets/images/sprites/Laos/
+    - assets/images/sprites/Latvia/
+    - assets/images/sprites/Lebanon/
+    - assets/images/sprites/Lesotho/
+    - assets/images/sprites/Liberia/
+    - assets/images/sprites/Libya/
+    - assets/images/sprites/Liechtenstein/
+    - assets/images/sprites/Lithuania/
+    - assets/images/sprites/Luxembourg/
+    - assets/images/sprites/Macau/
+    - assets/images/sprites/Madagascar/
+    - assets/images/sprites/Malawi/
+    - assets/images/sprites/Malaysia/
+    - assets/images/sprites/Maldives/
+    - assets/images/sprites/Mali/
+    - assets/images/sprites/Malta/
+    - assets/images/sprites/Marshall Islands/
+    - assets/images/sprites/Mauritania/
+    - assets/images/sprites/Mauritius/
+    - assets/images/sprites/Mayotte/
+    - assets/images/sprites/Mexico/
+    - assets/images/sprites/Micronesia/
+    - assets/images/sprites/Moldova/
+    - assets/images/sprites/Monaco/
+    - assets/images/sprites/Mongolia/
+    - assets/images/sprites/Montenegro/
+    - assets/images/sprites/Montserrat/
+    - assets/images/sprites/Morocco/
+    - assets/images/sprites/Mozambique/
+    - assets/images/sprites/Myanmar/
+    - assets/images/sprites/Namibia/
+    - assets/images/sprites/Nauru/
+    - assets/images/sprites/Nepal/
+    - assets/images/sprites/Netherlands/
+    - assets/images/sprites/New Caledonia/
+    - assets/images/sprites/New Zealand/
+    - assets/images/sprites/Nicaragua/
+    - assets/images/sprites/Niger/
+    - assets/images/sprites/Nigeria/
+    - assets/images/sprites/Niue/
+    - assets/images/sprites/North Korea/
+    - assets/images/sprites/North Macedonia/
+    - assets/images/sprites/Northern Mariana Islands/
+    - assets/images/sprites/Norway/
+    - assets/images/sprites/Oman/
+    - assets/images/sprites/Pakistan/
+    - assets/images/sprites/Palau/
+    - assets/images/sprites/Palestine/
+    - assets/images/sprites/Panama/
+    - assets/images/sprites/Papua New Guinea/
+    - assets/images/sprites/Paraguay/
+    - assets/images/sprites/Peru/
+    - assets/images/sprites/Philipines/
+    - assets/images/sprites/Pitcairn Island/
+    - assets/images/sprites/Poland/
+    - assets/images/sprites/Portugal/
+    - assets/images/sprites/Puerto Rico/
+    - assets/images/sprites/Qatar/
+    - assets/images/sprites/Reunion Island/
+    - assets/images/sprites/Romania/
+    - assets/images/sprites/Russia/
+    - assets/images/sprites/Rwanda/
+    - assets/images/sprites/Saint Kitts and Nevis/
+    - assets/images/sprites/Saint Lucia/
+    - assets/images/sprites/Saint Vincent and the Grenadines/
+    - assets/images/sprites/Samoa/
+    - assets/images/sprites/San Marino/
+    - assets/images/sprites/Sao Tome and Principe/
+    - assets/images/sprites/Saudi Arabia/
+    - assets/images/sprites/Senegal/
+    - assets/images/sprites/Serbia/
+    - assets/images/sprites/Seychelles/
+    - assets/images/sprites/Sierra Leone/
+    - assets/images/sprites/Singapore/
+    - assets/images/sprites/Slovakia/
+    - assets/images/sprites/Slovenia/
+    - assets/images/sprites/Solomon Islands/
+    - assets/images/sprites/Somalia/
+    - assets/images/sprites/South Africa/
+    - assets/images/sprites/South Korea/
+    - assets/images/sprites/South Sudan/
+    - assets/images/sprites/Spain/
+    - assets/images/sprites/Sri Lanka/
+    - assets/images/sprites/Sudan/
+    - assets/images/sprites/Suriname/
+    - assets/images/sprites/Swaziland/
+    - assets/images/sprites/Sweden/
+    - assets/images/sprites/Switzerland/
+    - assets/images/sprites/Syria/
+    - assets/images/sprites/Taiwan/
+    - assets/images/sprites/Tajikstan/
+    - assets/images/sprites/Tanzania/
+    - assets/images/sprites/Thailand/
+    - assets/images/sprites/Togo/
+    - assets/images/sprites/Tokelau/
+    - assets/images/sprites/Tonga/
+    - assets/images/sprites/Trinidad and Tobago/
+    - assets/images/sprites/Tunisia/
+    - assets/images/sprites/Turkey/
+    - assets/images/sprites/Turkmenistan/
+    - assets/images/sprites/Turks and Caicos Islands/
+    - assets/images/sprites/Tuvalu/
+    - assets/images/sprites/Uganda/
+    - assets/images/sprites/Ukraine/
+    - assets/images/sprites/United Arab Emirates/
+    - assets/images/sprites/United Kingdom/
+    - assets/images/sprites/United States of America/
+    - assets/images/sprites/Uruguay/
+    - assets/images/sprites/Uzbekistan/
+    - assets/images/sprites/Vanuatu/
+    - assets/images/sprites/Vatican/
+    - assets/images/sprites/Venezuela/
+    - assets/images/sprites/Vietnam/
+    - assets/images/sprites/Virgin Islands/
+    - assets/images/sprites/Virgin Islands (Brittain)/
+    - assets/images/sprites/Wallis and Futuna Islands/
+    - assets/images/sprites/Western Sahara/
+    - assets/images/sprites/Yemen/
+    - assets/images/sprites/Zambia/
+    - assets/images/sprites/Zimbabwe/
+  fonts:
+    - family: Pixel
+      fonts:
+        - asset: assets/fonts/Pixel.ttf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
