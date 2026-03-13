@@ -32,7 +32,23 @@ A fun and educational Flutter app where players test their knowledge of world fl
    ```
 
 ## Screenshots
-(Add screenshots here if available)
+
+![Gameplay Demo](record.gif)
+
+(Add more screenshots here if available)
+
+## Technology Stack
+
+This project uses the following technologies:
+
+- **Flutter**: The main framework for building cross-platform mobile applications.
+- **Dart**: Programming language used for Flutter development.
+- **Flame**: A lightweight game engine for Flutter, used to build the game's interactive and animated components.
+- **Provider**: State management solution for Flutter apps (if used).
+- **VS Code / Android Studio**: Recommended IDEs for development.
+- **Git**: Version control system for source code management.
+
+Additional packages and plugins may be listed in `pubspec.yaml`.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.

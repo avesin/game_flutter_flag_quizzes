@@ -7,7 +7,7 @@ import 'package:flame/game.dart';
 class MyGame extends FlameGame {
   @override
   Future<void> onLoad() async {
-    final randomFlag = flags.random();
+    final randomFlag = flags[94];
     add(FlagUI(randomFlag.imagePath));
     add(GameUI(flag: randomFlag));
   }
